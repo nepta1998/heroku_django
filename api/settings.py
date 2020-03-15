@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'api.wsgi.application'
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 DATABASES = {
     'default': dj_database_url.config(
-        default=config('HEROKU_POSTGRESQL_COPPER_URL')
+        default=config('DATABASE_URL')
     )
 }
 '''DATABASES = {
