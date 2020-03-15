@@ -1,4 +1,4 @@
 /db.sqlite3
- api/__pycache__/
+api/__pycache__/
 api_message/__pycache__/
 api_message/migrations/__pycache__/
